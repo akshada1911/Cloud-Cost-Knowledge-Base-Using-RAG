@@ -173,7 +173,7 @@ python embeddings/embed_nodes.py
 
 ### Step 8 — Launch Streamlit UI
 ```bash
-streamlit run ui/app.py
+streamlit run ui/appa.py
 ```
 
 ---
