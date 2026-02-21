@@ -13,15 +13,15 @@ The following screenshots are working proofs of the fully functional application
 
 KPI overview cards showing total records, effective cost, and provider-wise spend split between AWS and Azure.
 
-![Dashboard Overview](docs/screenshots/dashboard1.png)
+![Dashboard Overview](docs/dashboard1.png)
 
 Provider split and service category donut charts alongside the charge category breakdown (effective vs billed cost per provider).
 
-![Dashboard Charts](docs/screenshots/dashboard2.png)
+![Dashboard Charts](docs/dashboard2.png)
 
 Full service cost table with provider, category, and effective cost per service.
 
-![Dashboard Table](docs/screenshots/dashboard3.png)
+![Dashboard Table](docs/dashboard3.png)
 
 ---
 
@@ -29,23 +29,23 @@ Full service cost table with provider, category, and effective cost per service.
 
 Natural language query interface with quick query buttons, retrieval status bar showing intents, entity extraction, vector hits and graph hits.
 
-![Query Interface](docs/screenshots/query1.png)
+![Query Interface](docs/query1.png)
 
 LLM-generated answer grounded in retrieved graph and vector context — no hallucination, all figures sourced directly from Neo4j.
 
-![Query Answer](docs/screenshots/query2.png)
+![Query Answer](docs/query2.png)
 
 Graph results and vector results displayed side by side with cosine similarity scores.
 
-![Query Results](docs/screenshots/query3.png)
+![Query Results](docs/query3.png)
 
 ---
 
-### Test Suite — Assignment Part E Queries
+### Test Suite — Part E Queries
 
 Test suite page with dropdown selector for all 9 required queries, expected retrieval method label, and Run All 9 capability.
 
-![Test Suite](docs/screenshots/testsuite.png)
+![Test Suite](docs/testsuite.png)
 
 ---
 
@@ -53,15 +53,15 @@ Test suite page with dropdown selector for all 9 required queries, expected retr
 
 FOCUS Standard columns tab showing all 8 provider-neutral columns with descriptions and nullable flags.
 
-![Schema FOCUS Standard](docs/screenshots/schema1.png)
+![Schema FOCUS Standard](docs/schema1.png)
 
 AWS Extensions and Azure Extensions tabs showing vendor-specific x_* fields not part of the FOCUS standard.
 
-![Schema Extensions](docs/screenshots/schema2.png)
+![Schema Extensions](docs/schema2.png)
 
 Ontology class hierarchy and full relationship map with cardinality annotations.
 
-![Schema Ontology](docs/screenshots/schema3.png)
+![Schema Ontology](docs/schema3.png)
 
 ---
 
@@ -69,7 +69,7 @@ Ontology class hierarchy and full relationship map with cardinality annotations.
 
 Auto-generated Swagger UI at `http://localhost:8000/docs` showing all 4 REST endpoints: POST /query, GET /health, GET /concept/{name}, GET /stats.
 
-![FastAPI Swagger UI](docs/screenshots/fastapi.png)
+![FastAPI Swagger UI](docs/fastapi.png)
 
 ---
 
