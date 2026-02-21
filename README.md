@@ -29,15 +29,15 @@ Full service cost table with provider, category, and effective cost per service.
 
 Natural language query interface with quick query buttons, retrieval status bar showing intents, entity extraction, vector hits and graph hits.
 
-![Query Interface](docs/query1.png)
+![Query Interface](docs/Query1.png)
 
 LLM-generated answer grounded in retrieved graph and vector context — no hallucination, all figures sourced directly from Neo4j.
 
-![Query Answer](docs/query2.png)
+![Query Answer](docs/Query2.png)
 
 Graph results and vector results displayed side by side with cosine similarity scores.
 
-![Query Results](docs/query3.png)
+![Query Results](docs/Query3.png)
 
 ---
 
@@ -45,7 +45,7 @@ Graph results and vector results displayed side by side with cosine similarity s
 
 Test suite page with dropdown selector for all 9 required queries, expected retrieval method label, and Run All 9 capability.
 
-![Test Suite](docs/testsuite.png)
+![Test Suite](docs/TestSuite1.png)
 
 ---
 
@@ -69,7 +69,7 @@ Ontology class hierarchy and full relationship map with cardinality annotations.
 
 Auto-generated Swagger UI at `http://localhost:8000/docs` showing all 4 REST endpoints: POST /query, GET /health, GET /concept/{name}, GET /stats.
 
-![FastAPI Swagger UI](docs/fastapi.png)
+![FastAPI Swagger UI](docs/FastAPI.png)
 
 ---
 
